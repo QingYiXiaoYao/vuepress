@@ -11,7 +11,7 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     logo: '/images/logo.png',
-    repo: '/',
+    repo: 'https://github.com/QingYiXiaoYao/vuepress',
     docsDir: 'docs',
     locales: {
       '/': {
