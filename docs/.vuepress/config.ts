@@ -17,7 +17,9 @@ export default defineUserConfig({
       '/': {
         // sidebar
         sidebar: sidebar,
-        navbar: navbar
+        navbar: navbar,
+        lastUpdatedText: '上次更新',
+        contributorsText: '贡献者',
       }
     }
   })
