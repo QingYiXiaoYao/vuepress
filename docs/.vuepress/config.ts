@@ -1,5 +1,5 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
-import { head, sidebarZh, sidebarEn } from './configs/index.js'
+import { head, sidebar, navbar } from './configs/index.js'
 
 export default defineUserConfig({
   base: '/',
@@ -16,7 +16,8 @@ export default defineUserConfig({
     locales: {
       '/': {
         // sidebar
-        sidebar: sidebarZh
+        sidebar: sidebar,
+        navbar: navbar
       }
     }
   })
